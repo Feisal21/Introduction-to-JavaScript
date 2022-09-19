@@ -8,7 +8,12 @@ Do the following:
    2. Return true if age is 18 or higher
 
 */
-
+let votingAge = 18;
+if(votingAge >= 18) {
+   console.log(true);
+} else {
+   console.log(false);
+}
 
 
 /*
@@ -20,7 +25,11 @@ Do the following:
    3. Return the new value of the 1st variable
 
 */
-
+let a = 15;
+let b = 20;
+if(a >= 15) {
+   console.log(b)
+}
 
 
 /*
@@ -33,8 +42,12 @@ Do the following:
 
    HINT: look up the Number method
 */
-
-
+let date = '1999';
+console.log(typeof(date));
+let newdate = 1999;
+console.log(typeof(newdate));
+let year = 1999;
+console.log(year);
 /*
 Task 4 - Mood Checker
 
@@ -44,8 +57,15 @@ Do the following:
    3. Else just print 'So moody!'
 
 */
-
-
+let user = 'mood';
+mood = 'morning';
+if(mood === 'happy') {
+   console.log('Yay me too!');
+} else if(mood === 'sad') {
+   console.log('Aw cheer up!');
+} else {
+   console.log('So moody!');
+}
 /*
 
 
@@ -55,10 +75,15 @@ Use conditionals to check if a hardcoded number is odd or even, and then console
 
 */
 
-var num; // write a number here
+var num = 1; // write a number here
 
 // write your conditions here
-
+function isOdd(num) { return num % 2;}
+// // 1 represents an odd number, while 0 represents an even number.
+console.log("1 is " + isOdd(1));
+console.log("2 is " + isOdd(2));
+console.log("3 is " + isOdd(3));
+console.log("4 is " + isOdd(4));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 FIZZBUZZ 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
